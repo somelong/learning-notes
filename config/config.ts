@@ -96,10 +96,33 @@ export default {
       authority: ['admin', 'user'],
       routes: [
         {
-          path: '/',
-          name: 'index',
-          icon: 'smile',
-          component: './dashboard/workplace',
+          path: '/dashboard',
+          name: 'dashboard',
+          icon: 'dashboard',
+          routes: [
+            {
+              name: 'analysis',
+              path: '/dashboard/analysis',
+              component: './dashboard/analysis',
+            },
+            {
+              name: 'workplace',
+              path: '/dashboard/workplace',
+              component: './dashboard/workplace',
+            },
+          ],
+        },
+        {
+          path: '/jsBasics',
+          name: 'jsBasics',
+          icon: 'dashboard',
+          routes: [
+            {
+              name: 'type',
+              path: '/jsBasics/type',
+              component: './jsBasics/type',
+            },
+          ],
         },
         {
           component: './404',
