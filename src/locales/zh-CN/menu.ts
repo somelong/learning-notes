@@ -56,4 +56,7 @@ export default {
   'menu.dashboard.workplace': '首页仪表盘的工作页面',
   'menu.jsBasics': 'javaScript基础',
   'menu.jsBasics.type': '变量和类型',
+  'menu.CssSkill': 'css技巧',
+  'menu.CssSkill.BubbleBackgroundWall': '气泡背景',
+  'menu.CssSkill.FaultText': '错误文本',
 };

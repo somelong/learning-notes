@@ -125,6 +125,23 @@ export default {
           ],
         },
         {
+          path: '/cssSkill',
+          name: 'CssSkill',
+          icon: 'dashboard',
+          routes: [
+            {
+              name: 'BubbleBackgroundWall',
+              path: '/cssSkill/bubble-Background-wall',
+              component: './CssSkill/BubbleBackgroundWall/Index',
+            },
+            {
+              name: 'FaultText',
+              path: '/cssSkill/fault-text',
+              component: './CssSkill/FaultText/Index',
+            },
+          ],
+        },
+        {
           component: './404',
         },
       ],
