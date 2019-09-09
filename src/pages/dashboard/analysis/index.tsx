@@ -1,8 +1,11 @@
 import React, { PureComponent } from 'react';
 
 class Workplace extends PureComponent{
+
   render(){
-    return (<div>这个是第二个页面</div>)
+    return (<div>
+      <h1>测试拖拽组件</h1>
+    </div>)
   }
 }
 
